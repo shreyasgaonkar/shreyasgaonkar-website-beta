@@ -11,6 +11,48 @@
         "href": "https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-401-error-lambda-authorizer/"
     },
     {
+        "name": "AWS Lambda Code Samples",
+        "skills": "AWS Lambda, Boto3 Python SDK",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/aws-lambda-code-samples"
+    },
+    {
+        "name": "AWS CLI Code Samples",
+        "skills": "AWS CLI, Bash",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/aws-cli-code-samples"
+    },
+    {
+        "name": "Instagram Bot",
+        "skills": "Python, Selenium",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/Instagram-Bot"
+    },
+    {
+        "name": "URL Shortner",
+        "skills": "Python, AWS Lambda, API Gateway, DynamoDB",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/url-shortner"
+    },
+    {
+        "name": "Plex filename parse",
+        "skills": "Python",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/Plex-filename-parser"
+    },
+    {
+        "name": "Automate social media posts",
+        "skills": "Python",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/social-media-posts"
+    },
+    {
+        "name": "Doggo Webhook",
+        "skills": "Python",
+        "img": "/images/SG.png",
+        "href": "https://github.com/shreyasgaonkar/doggo_webhook"
+    },
+    {
         "name": "Remitly Web Scrapper",
         "skills": "Python - Beautifulsoup",
         "img": "/images/SG.png",
