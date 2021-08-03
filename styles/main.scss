@@ -524,6 +524,16 @@ blockquote span {
     }
   }
 
+  footer {
+    .row {
+      display: grid;
+    }
+
+    .col13 {
+      width: 100%;
+    }
+  }
+
   .hidden-on-mobile {
     display: none !important;
   }
