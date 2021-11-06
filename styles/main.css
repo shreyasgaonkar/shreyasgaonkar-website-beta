@@ -214,8 +214,7 @@ blockquote span {
   background: -webkit-linear-gradient(left, #9a9fa3 50%, #9ba1a7 50%);
   background: -o-linear-gradient(left, #9a9fa3 50%, #9ba1a7 50%);
   background: linear-gradient(to right, #9a9fa3 50%, #9ba1a7 50%);
-  background-size: 200% 100%;
-  background-position: left bottom; }
+  background-size: 200% 100%; }
 
 .intro {
   font-size: 1.25rem;
