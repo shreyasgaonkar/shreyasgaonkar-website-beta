@@ -1,4 +1,3 @@
-
 function addExperience(k, val) {
     const company = val['company'];
     const title = val['title'];
@@ -38,7 +37,7 @@ $.getJSON("../data/projects.json", function(data) {
     });
 }, "jsonp");
 
-$.getJSON("../data/testimonals.json", function(data) {
+$.getJSON("../data/testimonials.json", function(data) {
     $.each(data, function(key, val) {
         $('#testimonials').append(addTestimonials(key, val))
     });
