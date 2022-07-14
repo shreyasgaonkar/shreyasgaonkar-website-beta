@@ -6,4 +6,4 @@ Disallow: /node_modules/
 User-agent: *
 Allow: /
 
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: http://www.shreyasgaonkar.com/sitemap.xml
