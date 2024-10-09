@@ -1,158 +1,248 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics-->
-  <script src="https://www.googletagmanager.com/gtag/js?id=UA-37241645-2" async="async"></script>
-  <script>
-    function gtag() {
-    dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-37241645-2');
-  </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- favicon-->
-  <link href="./images/favicon/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
-  <link href="./images/favicon/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
-  <link href="./images/favicon/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-  <link href="./images/favicon/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-  <link href="./images/favicon/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-  <link href="./images/favicon/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-  <link href="./images/favicon/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-  <link href="./images/favicon/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-  <link href="./images/favicon/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-  <link type="image/png" href="./images/favicon/android-icon-192x192.png" rel="icon" sizes="192x192">
-  <link type="image/png" href="./images/favicon/favicon-32x32.png" rel="icon" sizes="32x32">
-  <link type="image/png" href="./images/favicon/favicon-96x96.png" rel="icon" sizes="96x96">
-  <link type="image/png" href="./images/favicon/favicon-16x16.png" rel="icon" sizes="16x16">
-  <link href="./images/favicon/manifest.json" rel="manifest">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link href="./styles/main.css" rel="stylesheet">
-  <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
-  <meta name="keywords" content="Shreyas, Gaonkar, Website, AWS, Amazon Web Services, Systems Development Engineer II, Cloud Support Engineer, Web, Developer, Designer, Photographer, Porfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList, YouTube, Abandoned Hope">
-  <meta name="title" content="Shreyas Gaonkar">
-  <meta name="description" content="Shreyas works at Amazon Web Services as a Systems Development Engineer at Amazon CloudWatch. He enjoys spending time learning new services and technologies during his spare time apart from playing music.">
-  <!-- Meta tags for links on social networks-->
-  <meta property="og:image" content="/images/shreyas-circle.png">
-  <meta property="og:description" content="Shreyas works at Amazon Web Services as a Systems Development Engineer at AWS. He enjoys spending time learning new services and technologies during his spare time apart from playing music.">
-  <meta name="author" content="Shreyas Gaonkar">
-  <!-- Heap Analytics-->
-  <script type="text/javascript">
-    heap.load = function(e, t) {
-    window.heap.appid = e,
-    a = document.createElement("script");
-    a.type = "text/javascript",
-    a.async = !0,
-    a.src = (
-    n ?
-    "https:" :
-    "http:"
-    ) + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
-    var o = document.getElementsByTagName("script")[0];
-    o.parentNode.insertBefore(a, o);
-    for (var r = function(e) {
-    return function() {
-    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
-    }
-    }, p = [
-    "clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty"
-    ], c = 0; c < p.length; c++)
-    heap[p[c]] = r(p[c])
-    };
-    heap.load("2884439115");
-  </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-37241645-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-37241645-2');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shreyas Gaonkar | shreyasgaonkar.com</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+
+    <meta name="keywords" content="Shreyas, Gaonkar, Website, AWS, Amazon Web Services, Systems Development Engineer II, Cloud Support Engineer, Web, Developer, Designer, Photographer, Portfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList, YouTube, Abandoned Hope"
+    />
+    <meta name="title" content="Shreyas Gaonkar" />
+
+    <meta name="description" content="Shreyas works at Amazon Web Services as a Systems Development Engineer at Amazon CloudWatch. He enjoys spending time learning new services and technologies during his spare time apart from playing music." />
+
+    <!-- Meta tags for links on social networks -->
+    <meta property="og:title" content="Shreyas Gaonkar | shreyasgaonkar.com" />
+    <meta property="og:image" content="/images/shreyas-circle.png" />
+    <meta property="og:description" content="Shreyas works at Amazon Web Services as a Systems Development Engineer at AWS. He enjoys spending time learning new services and technologies during his spare time apart from playing music." />
+    <meta name="author" content="Shreyas Gaonkar" />
+
+    <!-- Heap Analytics -->
+
+    <script type="text/javascript">
+        window.heap = window.heap || [],
+            heap.load = function(e, t) {
+                window.heap.appid = e,
+                    window.heap.config = t = t || {};
+                var n = t.forceSSL || "https:" === document.location.protocol,
+                    a = document.createElement("script");
+                a.type = "text/javascript",
+                    a.async = !0,
+                    a.src = (
+                        n ?
+                        "https:" :
+                        "http:"
+                    ) + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+                var o = document.getElementsByTagName("script")[0];
+                o.parentNode.insertBefore(a, o);
+                for (var r = function(e) {
+                        return function() {
+                            heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                        }
+                    }, p = [
+                        "clearEventProperties", "identify", "setEventProperties", "track", "unsetEventProperty"
+                    ], c = 0; c < p.length; c++)
+                    heap[p[c]] = r(p[c])
+            };
+        heap.load("2884439115");
+    </script>
+
 </head>
-<div class="outer-content">
-  <div class="header">
-    <div class="container"><img src="./images/shreyas-circle.png" alt="Shreyas Gaonkar">
-      <hr>
-      <div class="outerText hidden-on-mobile"><span class="fName">Shreyas</span><span class="lName">Gaonkar</span></div>
-      <h2 class="visible-on-mobile">Shreyas Gaonkar</h2>
-      <h4 class="text-center"><br><img class="globe" src="/images/svg/globe.svg" alt="Globe icon"></h4>
-      <div class="social hidden-on-mobile"><a href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn" target="_blank"><img src="/images/svg/linkedin.svg" alt="LinkedIn"></a><a href="https://github.com/shreyasgaonkar" title="GitHub" target="_blank"><img src="/images/svg/github.svg" alt="GitHub"></a><a href="https://www.behance.net/shreyasgaonkar" title="Behance" target="_blank"><img src="/images/svg/behance.svg" alt="Behance"></a><a href="https://www.twitter.com/shreyasgaonkar" title="Twitter" target="_blank"><img src="/images/svg/twitter.svg" alt="Twitter"></a></div>
-    </div>
-    <nav class="navbar hidden-on-mobile">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/docs/Resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="https://github.com/shreyasgaonkar" target="_blank">Projects</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="intro">
-    <div class="container">
-      <p><br></p>
-    </div>
-  </div>
-</div>
-<div class="inner-content">
-  <div class="container">
-    <div class="line-behind-text">
-      <h6>Experience</h6>
-      <hr class="hr-shadow">
-    </div>
-    <section id="experience"></section>
-    <div class="line-behind-text">
-      <h6>Projects</h6>
-      <hr class="hr-shadow">
-    </div>
-    <section id="projects"></section>
-    <div class="line-behind-text">
-      <h6>Testimonials</h6>
-      <hr class="hr-shadow">
-    </div>
-  </div>
-  <!-- end container-->
-  <div class="container">
-    <section id="testimonials"></section>
-    <!-- <section id="youtube"> <h1>YouTube</h1> <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NiL1EGXiVlA" allowfullscreen="allowfullscreen"></iframe> </div> </section>-->
-  </div>
-  <footer id="footer">
-    <div class="container">
-      <div class="footer-logo"><img src="images/SG.png" title="Shreyas Gaonkar" alt="Shreyas Gaonkar" width="119"></div>
-      <div class="row">
-        <div class="col col13">
-          <ul>
-            <li class="footer-title">Content</li>
-            <li><a href="/">Home</a></li>
-            <li><a href="docs/Resume.pdf">Resume</a></li>
-          </ul>
-          <ul>
-            <li class="footer-title">Technical Papers</li>
-            <li><a href="docs/Vending Machine VLSI.pdf">Chocolate Vending Machine using VLSI</a></li>
-            <li><a href="docs/Automated Toll Collection System.pdf">Automatic Toll Collection System using RFID backscattering</a></li>
-          </ul>
+
+<body>
+
+    <div class="outer-content">
+        <div class="header">
+            <div class="container">
+                <img src="./images/shreyas-circle.png" alt="Shreyas Gaonkar">
+                <hr>
+                <div class="outerText hidden-on-mobile">
+                    <span class="fName">Shreyas</span>
+                    <span class="lName">Gaonkar</span>
+                </div>
+                <h2 class="visible-on-mobile">Shreyas Gaonkar</h2>
+                <h4 class="text-center">Systems Development Engineer II @ AWS
+                    <br>
+                    <img class="globe" src="/images/svg/globe.svg" alt="Globe icon"> Seattle, WA</h4>
+
+                <div class="social hidden-on-mobile">
+                    <a target="_blank" href="https://www.linkedin.com/in/shreyasgaonkar" title="LinkedIn">
+                        <img src="/images/svg/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a target="_blank" href="https://github.com/shreyasgaonkar" title="GitHub">
+                        <img src="/images/svg/github.svg" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar hidden-on-mobile">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/docs/Resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/shreyasgaonkar">Projects</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="col col13">
-          <ul>
-            <li class="footer-title">Follow Me</li>
-            <li><a href="https://www.youtube.com/AbandonedHopeLive" target="_blank">My Virtual Band</a></li>
-            <li><a href="https://medium.com/@shreyasgaonkar" target="_blank">Blog</a></li>
-            <li><a href="https://www.linkedin.com/in/shreyasgaonkar/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/shreyasgaonkar" target="_blank">GitHub</a></li>
-            <li><a href="https://www.twitter.com/shreyasgaonkar" target="_blank">Twitter</a></li>
-            <li><a href="https://www.instagram.com/shreyasgaonkar/" target="_blank">Instagram</a></li>
-          </ul>
+        <div class="intro">
+            <div class="container">
+                <p>
+                    Hi, I'm Shreyas.
+                    <br> I'm passionate about coding, I design websites and enjoy playing music. I'm currently scaling and building Amazon CloudWatch Logs at AWS.
+                </p>
+            </div>
         </div>
-        <div class="col col13">
-          <ul>
-            <li class="footer-title">My AWS articles</li>
-            <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/sns-sms-spending-limit-increase/" target="_blank">Configure SMS limits for SNS</a></li>
-            <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/sns-not-receiving-s3-event-notifications/" target="_blank">Amazon S3 not invoking SNS</a></li>
-            <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/lambda-sqs-scaling/" target="_blank">Optimize SQS-Lambda scaling</a></li>
-            <li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-401-error-lambda-authorizer/" target="_blank">API Gateway 401 Errors</a></li>
-            <li><a href="https://github.com/shreyasgaonkar/aws-lambda-code-samples" target="_blank">AWS Lambda Code samples Boto3</a></li>
-            <li><a href="https://github.com/shreyasgaonkar/aws-cli-code-samples" target="_blank">AWS Lambda Code samples CLI</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-      <p>Designed and coded by Shreyas Gaonkar</p>
     </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="./scripts/index.js"></script>
-</div>
+
+    <div class="inner-content">
+        <div class="container">
+
+            <div class="line-behind-text">
+                <h6>Experience</h6>
+                <hr class="hr-shadow" />
+            </div>
+            <section id="experience"></section>
+
+            <div class="line-behind-text">
+                <h6>Projects</h6>
+                <hr class="hr-shadow" />
+            </div>
+            <section id="projects"></section>
+
+            <div class="line-behind-text">
+                <h6>Testimonials</h6>
+                <hr class="hr-shadow" />
+            </div>
+        </div>
+        <!-- end container -->
+        <div class="container">
+            <section id="testimonials"></section>
+            <!-- <section id="youtube"> <h1>YouTube</h1> <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NiL1EGXiVlA" allowfullscreen="allowfullscreen"></iframe> </div> </section> -->
+
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="images/SG.png" width="119" alt="Shreyas Gaonkar" title="Shreyas Gaonkar">
+                </div>
+
+                <div class="row">
+                    <div class="col col13">
+                        <ul>
+                            <li class="footer-title">Content</li>
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="docs/Resume.pdf">Resume</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="footer-title">Technical Papers</li>
+                            <li>
+                                <a href="docs/Vending Machine VLSI.pdf">Chocolate Vending Machine using VLSI</a>
+                            </li>
+                            <li>
+                                <a href="docs/Automated Toll Collection System.pdf">Automatic Toll Collection System using RFID backscattering</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col13">
+                        <ul>
+                            <li class="footer-title">Follow Me</li>
+                            <li>
+                                <a target="_blank" href="https://www.youtube.com/AbandonedHopeLive">My Virtual Band</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://medium.com/@shreyasgaonkar">Blog</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/shreyasgaonkar/">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/shreyasgaonkar">GitHub</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/shreyasgaonkar">Twitter</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.instagram.com/shreyasgaonkar/">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col13">
+                        <ul>
+                            <li class="footer-title">My AWS articles</li>
+                            <li>
+                                <a href="https://repost.aws/knowledge-center/sns-sms-spending-limit-increase" target="_blank">Configure SMS limits for SNS</a>
+                            </li>
+                            <li>
+                                <a href="https://repost.aws/knowledge-center/sns-not-receiving-s3-event-notifications" target="_blank">Amazon S3 not invoking SNS</a>
+                            </li>
+                            <li>
+                                <a href="https://repost.aws/knowledge-center/lambda-sqs-scaling" target="_blank">Optimize SQS-Lambda scaling</a>
+                            </li>
+                            <li>
+                                <a href="https://repost.aws/knowledge-center/api-gateway-401-error-lambda-authorizer" target="_blank">API Gateway 401 Errors</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/shreyasgaonkar/aws-lambda-code-samples" target="_blank">AWS Lambda Code samples Boto3</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/shreyasgaonkar/aws-cli-code-samples" target="_blank">AWS Lambda Code samples CLI</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr/>
+                <p>Designed and coded by Shreyas Gaonkar</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="./scripts/index.js"></script>
+</body>
+
+</html>
