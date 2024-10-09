@@ -8,7 +8,7 @@
         "name": "AWS Public blog",
         "skills": "Amazon API Gateway",
         "img": "/images/aws.png",
-        "href": "https://aws.amazon.com/premiumsupport/knowledge-center/api-gateway-401-error-lambda-authorizer/"
+        "href": "https://repost.aws/knowledge-center/api-gateway-401-error-lambda-authorizer"
     },
     {
         "name": "AWS Lambda Code Samples",
