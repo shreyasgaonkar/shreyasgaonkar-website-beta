@@ -1,4 +1,5 @@
-[{
+[
+    {
         "company": "Amazon Web Services",
         "title": "Systems Development Engineer II",
         "dates": "September 2021 - Present",
@@ -45,11 +46,5 @@
         "title": "Web Developer Intern",
         "dates": "May 2015 - Aug 2015",
         "img": "/images/mote.png"
-    },
-    {
-        "company": "Chitramandaar",
-        "title": "Web Developer & Online Presence",
-        "dates": "Feb 2013 - Feb 2015",
-        "img": "/images/chitramandaar.png"
     }
 ]

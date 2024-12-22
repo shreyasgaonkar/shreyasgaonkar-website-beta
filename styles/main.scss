@@ -255,6 +255,9 @@ blockquote span {
         padding: 1px 3px;
         overflow-wrap: word-wrap;
     }
+    p {
+        font-size: 1.3rem;
+    }
 }
 
 .inner-content {
@@ -378,7 +381,6 @@ blockquote span {
 @media (max-width: 400px) {
     .header {
         min-height: 75vh;
-
         h2 {
             margin: 0;
         }
@@ -387,12 +389,9 @@ blockquote span {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-
     .hr-shadow {
         display: none !important;
     }
-
-
     .header {
         img {
             max-width: 75%;
@@ -402,22 +401,18 @@ blockquote span {
     .intro {
         padding: 0 0 20px 0;
         margin-top: -40px;
-
         .container {
             padding: 0 20px;
         }
     }
     .inner-content {
-
         .container {
             section {
                 padding-top: 0;
                 padding-bottom: 0;
             }
         }
-
         background-image: none;
-
         .box {
             padding: 1rem;
             box-shadow: none;
@@ -425,7 +420,6 @@ blockquote span {
         #experience,
         #projects {
             .box {
-                
                 margin: 1rem;
                 background: #eee;
                 border-radius: 1px;
