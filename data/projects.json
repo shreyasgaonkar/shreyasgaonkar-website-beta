@@ -1,4 +1,11 @@
-[{
+[
+    {
+        "name": "AWS feature launch",
+        "skills": "IPv6 support for CloudWatch Logs",
+        "img": "/images/aws.png",
+        "href": "https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-cloudwatch-logs-ipv6/"
+    },
+    {
         "name": "HSE COVID Tracker app",
         "skills": "Architecture: AWS Lambda, API Gateway & SNS",
         "img": "/images/hse.webp",
@@ -57,7 +64,8 @@
         "skills": "Python - Beautifulsoup",
         "img": "/images/SG.png",
         "href": "https://github.com/shreyasgaonkar/website-scrapper-beautifulsoup"
-    }, {
+    },
+    {
         "name": "Plex filename parser",
         "skills": "Python",
         "img": "/images/SG.png",

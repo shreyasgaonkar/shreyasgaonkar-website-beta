@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head></head>
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<link rel="canonical" href="https://shreyasgaonkar.com/">
+<meta property="og:url" content="https://shreyasgaonkar.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shreyasgaonkar">
+<meta name="twitter:creator" content="@shreyasgaonkar">
+</head>
+
 <head>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-37241645-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37241645-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -40,7 +52,7 @@
     <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.css">
 
     <meta name="keywords" content="Shreyas, Gaonkar, Website, AWS, Amazon Web Services, Systems Development Engineer II, Cloud Support Engineer, Web, Developer, Designer, Photographer, Portfolio, Resume, CV, Online, HTML, CSS, GitHub, LinkedIn, Facebook, AngelList, YouTube, Abandoned Hope"
     />
@@ -129,7 +141,7 @@
             <div class="container">
                 <p>
                     Hi, I'm Shreyas.
-                    <br> I'm passionate about coding, I design websites and enjoy playing music. I'm currently scaling and building Amazon CloudWatch Logs at AWS.
+                    <br /> I'm a passionate developer with a love for coding, web design, and music. Currently, I specialize in scaling and optimizing Amazon CloudWatch Logs infrastructure at AWS.
                 </p>
             </div>
         </div>
@@ -140,19 +152,16 @@
 
             <div class="line-behind-text">
                 <h6>Experience</h6>
-                <hr class="hr-shadow" />
             </div>
             <section id="experience"></section>
 
             <div class="line-behind-text">
                 <h6>Projects</h6>
-                <hr class="hr-shadow" />
             </div>
             <section id="projects"></section>
 
             <div class="line-behind-text">
                 <h6>Testimonials</h6>
-                <hr class="hr-shadow" />
             </div>
         </div>
         <!-- end container -->
@@ -242,7 +251,10 @@
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="./scripts/index.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="./scripts/jquery-3.4.1.min.js"><\/script>');
+        </script>
+        <script src="./scripts/index-dist.js"></script>
 </body>
 
 </html>
